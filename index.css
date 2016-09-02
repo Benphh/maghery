@@ -1,0 +1,135 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+  h4 {
+    color:white;
+	padding-left: 20px;
+	display: block;
+    position: relative;
+    float: none;
+    padding-top:20px;
+		font-weight: bold;
+	}
+
+
+.nav {
+		z-index:10;
+		height: 0px;
+		display: inline-block;
+		white-space: normal;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+.jumbotron {
+  height: 61%;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-color: #3399ff;
+  border-top: 1px solid white;
+
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Seaweed Script', cursive;
+  font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+
+  .learn-more {
+  background-color: white;
+  color: #3399ff;
+}
+
+.learn-more a {
+  color: #337AB7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.Flexible-map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-map iframe,
+.Flexible-map object,
+.Flexible-map embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.where {
+  background-color:white;
+  color:#3399ff;
+  font-family: 'Shift', sans-serif;
+  padding-top:40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.schedule {
+  color: #3399ff;
+  font-family: 'Shift', sans-serif;
+  }
+
+	.contact {
+	  background-color:white;
+	  color:#3399ff;
+	  font-family: 'Shift', sans-serif;
+	  padding-top:40px;
+	  padding-bottom: 20px;
+	  font-weight: bold;
+	}
